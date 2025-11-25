@@ -43,3 +43,16 @@ This project fetches product data from a public API and displays them in a user-
 
 ## 📁 Folder Structure
 
+src/
+│
+├── components/
+│   ├── ProductCard.jsx
+│   ├── SearchBar.jsx
+│
+├── pages/
+│   ├── ProductListPage.jsx
+│   ├── ProductDetailPage.jsx
+│
+├── App.jsx
+├── main.jsx   (or index.jsx)
+
