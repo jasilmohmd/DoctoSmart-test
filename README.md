@@ -11,6 +11,24 @@ This project fetches product data from a public API and displays them in a user-
 
 ---
 
+Steps to Run the Project
+  1. Clone the Repository
+    git clone <your-repo-url>
+    cd <project-folder>
+  
+  2. Install Dependencies
+    npm install
+  
+  3. Start the Development Server
+    npm run dev
+
+  4. Build for Production
+    npm run build
+  
+  5. Preview the Production Build
+    npm run preview
+
+
 ## 📌 Features Covered
 
 ### ✅ **1. Component-Based Architecture**
