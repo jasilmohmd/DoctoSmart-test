@@ -1,16 +1,45 @@
-# React + Vite
+# 🛒 React Product Catalog App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and clean product catalog application built using **React**, following the folder structure rules defined in the assignment:
 
-Currently, two official plugins are available:
+- `components/` ➝ Reusable UI components  
+- `pages/` ➝ Complete pages rendered through routing  
+- `react-router-dom` for page navigation  
+- Clean, readable code with search and sorting functionality  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project fetches product data from a public API and displays them in a user-friendly interface.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Features Covered
 
-## Expanding the ESLint configuration
+### ✅ **1. Component-Based Architecture**
+- Separated reusable UI elements inside `/components`
+- Product card and search bar are isolated components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ✅ **2. Page-Based Routing using React Router**
+- Home Page → Lists all products  
+- Product Detail Page → Shows selected product  
+- 404 Fallback Route  
+
+### Routes:
+- `/` → ProductListPage  
+- `/product/:id` → ProductDetailPage  
+
+---
+
+## 🧠 **3. Functionalities Implemented**
+| Feature | Description |
+|--------|-------------|
+| **Product List** | Fetches products from fakestore API |
+| **Search** | Filter products by title (case-insensitive) |
+| **Price Sorting** | Low → High and High → Low |
+| **Dynamic Routing** | Unique page for each product |
+| **Error Handling** | 404 page + product not found state |
+| **Loading State** | Shows loader while fetching |
+| **Responsive Grid** | Fully responsive UI |
+
+---
+
+## 📁 Folder Structure
+
